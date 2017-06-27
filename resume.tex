@@ -1,5 +1,9 @@
 \documentclass{resume} % Use the custom resume.cls style
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{natbib}
+\usepackage{bibentry}
+\nobibliography{ref.bib}
+\bibliographystyle{apalike}
 \name{James (Jamie) T. Morton}
 \address{(513)~$\cdot$~907~$\cdot$~9853 \\ jamietmorton@gmail.com \\ https://github.com/mortonjt}% Your phone number and email and github
 \begin{document}
@@ -20,7 +24,6 @@
     \textbf{Study Abroad} &  Hong Kong University of Science and Technology   \\
     Spring 2012 \\
   \end{tabular}
-
 \end{rSection}
 \begin{rSection}{Honors}
   \begin{tabular}{ll}
@@ -44,7 +47,54 @@
     $\bullet$ & \textbf{Wright Scholar}, Air Force Research Laboratory, Wright Patterson Air Force Base, 2009\\
   \end{tabular}
 \end{rSection}
-
+\begin{rSection}{Publications}
+  \begin{itemize}
+    \item \bibentry {morton2017balance}
+    \item \bibentry {morton2017uncovering}
+    \item \bibentry {amir2017correcting}
+    \item \bibentry {amir2017deblur}
+    \item \bibentry {vazquez2017bringing}
+    \item \bibentry {vrbanac2017elegan}
+    \item \bibentry {hill2017parkinson}
+    \item \bibentry {reber2016immunization}
+    \item \bibentry {gilbert2016microbiome}
+    \item \bibentry {nellore2016rail}
+    \item \bibentry {petras2016mass}
+    \item \bibentry {barberan2015ecology}
+    \item \bibentry {morton2015large}
+    \item \bibentry {morton2014scope++}
+  \end{itemize}
+\end{rSection}
+\begin{rSection}{Presentations}
+  \begin{itemize}
+    \setlength\itemsep{0em}
+    \item  Morton et al. Balances Reveal Microbial Niche Differentiation. CODAwork (2017)
+    \item  Morton et al. From Probabilities to Balances: An Alternative Approach. Information Theory and Applications Workshop (2016)
+    \item  Morton et al. From Probabilities to Balances: An Alternative Approach Random Processes and Time Series: Theory and Applications (2016)
+    \item  Reber et al. An immunization strategy for prevention of post-traumatic stress disorder (PTSD) promotes stress resilience in mice.
+                 University California San Diego Pediatrics Symposium  (2016)
+    \item  Reber et al. Immunization with a heat-killed preparation of the environmental bacterium Mycobacterium vaccae
+                promotes stress resilience in mice. DNA Day (2015)
+    \item   Morton, J., Lladser M., Knight R., Uncovering the Unknown: A New Approach in
+                Analyzing Microbiome Data NSF Data Science Workshop, 2015
+    \item   Morton, J., Freed, S. Lee, S. Friedberg, I. Prediction of Bacteriocin Associated Operons
+                Rocky Mountain Bioinformatics Conference, 2014
+    \item   Morton, J., Freed, S. Lee, S. Friedberg, I. A pipeline for Identifying Bacteriocin-Associated
+                Gene Clusters. ISMB Boston, 2014
+    \item   Morton, J., Freed, S. Lee, S. Friedberg, I. Discovering the Next Antibiotic
+                Ohio Space Grant Consortium, Cleveland OH, 2014
+    \item   Morton, J., P., Abrudan, J. Karro, C. Liang , Sequence classification of homopolymer emissions
+                (SCOPE), Great Lakes Bioinformatics Conference, Pittsburgh, PA, 2013
+    \item   Morton, J., P., Abrudan, J. Karro, C. Liang , Sequence classification of homopolymer emissions
+                (SCOPE), Ohio Space Grant Consortium, Cleveland OH, 2013
+    \item   Morton, J., P., Abrudan, J. Karro, C. Liang , Sequence classification of homopolymer emissions
+                (SCOPE), IEEE 2nd International Conference on Computational Advances in Bio and
+                Medical Sciences, ICCABS 2012, Las Vegas, NV, February 2012
+    \item   Morton, J., J. Karro, C. Liang, A novel approach for identifying poly(A) tails in
+                raw cDNA sequence data using General Hidden Markov Models, Genome Informatics
+                Cold Spring Harbor, NY, November 2011.
+  \end{itemize}
+\end{rSection}
 \begin{rSection}{Experience}
   \textbf{Research Experience}\\
   \textit{Rotation student} \hfill University of California San Diego, La Jolla, CA, Fall 2015 - Present\\
@@ -76,6 +126,8 @@
   $-$ Studied cognitive radio, radar, and GPS concepts and techniques \\[3 mm]
 %
   \textbf{Teaching Experience}\\
+  \textit{Teaching Assistant} \hfill Woods Hole, MA, Summer 2016 \\
+  $-$ Teaching assistant for computational microbiology course at STAMPS.\\
   \textit{Teaching Assistant} \hfill Miami University, OH, Spring 2011 \\
   $-$ Assisted Professor Mostafa Modirrousta in teaching of two sections of Intro to Engineering labs\\[3 mm]
 %
@@ -97,64 +149,8 @@
   \textbf{Technical Skills}\\[1 mm]
   \begin{tabular}{lllllll}
      $\bullet$ Python   &  $\bullet$ C/C++ &  $\bullet$ Java  & $\bullet$ Javascript &  $\bullet$ \LaTeX   &  $\bullet$ ROS    &  $\bullet$ Hadoop\\
-     $\bullet$ Matlab   &  $\bullet$ R     &   $\bullet$ Unix   & $\bullet$ SQL      &  $\bullet$ OpenCL  &  $\bullet$ CUDA   &   $\bullet$ git\\
+     $\bullet$ Matlab   &  $\bullet$ R     &  $\bullet$ Unix   & $\bullet$ SQL      &  $\bullet$ OpenCL   &  $\bullet$ CUDA   &   $\bullet$ git\\
   \end{tabular}\\[1 mm]
-\end{rSection}
-\begin{rSection}{Publications}
-  \begin{tabular}{ll}
-    $\bullet$ & Jack A Gilbert, Robert A Quinn, Justine Debelius, Zhenjiang Z Xu, James Morton, \\
-    & Neha Garg, Janet K Jansson, Pieter C Dorrestein, Rob Knight \\
-    & Microbiome-wide association studies link dynamic microbial consortia to disease\\
-    & \textit{Nature} 535 (7610), 94-103\\
-    %
-    $\bullet$ & Stefan O. Reber, Nina C. Donner, Philip H. Siebler, James T. Morton \\
-    & Immunization with a heat-killed preparation of the environmental bacterium Mycobacterium vaccae \\
-    & promotes stress resilience in mice, \textit{Proceedings of the Natural Academy of Sciences} (2016)\\
-%
-    $\bullet$ & Morton, J., Freed, S. Lee, S. Friedberg, I \\
-    & A large scale prediction of bacteriocin gene blocks suggests a wide functional spectrum for bacteriocins, \\
-    & \textit{BMC Bioinformatics} 16.381 (2015)\\
-%
-    $\bullet$ & Barberan, A., Dunn, R. Reich B., Pacifici K., Laber E., Menninger H., Morton, J. \\
-    & Henley J., Leff J., Miller S., Fierer N. The ecology of microscopic life in household dust, \\
-    & Proceedings of the Royal Society B, 282.1814 (2015) \\
-
-    $\bullet$ & Morton, J.,  Abrudan, P.,  Figuegoa, N., Liang, C., Karro, J. \\
-    & SCOPE++: Sequence Classification Of homoPolymer Emissions, \textit{Genomics}. 104.3 (2014) 157--162 \\
-%
-    $\bullet$ & Nellore A., Morton, J., Langmead B. \\
-    & Rail-RNA: A scalable spliced read aligner, Submitted to \textit{Bioinformatics}\\
-%
-  \end{tabular}
-\end{rSection}
-\newpage
-\begin{rSection}{Presentations}
-  \begin{tabular}{ll}
-    $\bullet$ & Stefan O. Reber, Nina C. Donner, Philip H. Siebler, James T. Morton \\
-               & An immunization strategy for prevention of post-traumatic stress disorder (PTSD)\\
-               & promotes stress resilience in mice. University California San Diego Pediatrics Symposium  (2016) \\
-    $\bullet$ & Stefan O. Reber, Nina C. Donner, Philip H. Siebler, James T. Morton \\
-               & Immunization with a heat-killed preparation of the environmental bacterium Mycobacterium vaccae \\
-               & promotes stress resilience in mice. DNA Day (2015)\\
-    $\bullet$  & \underline{Morton, J.}, Lladser M., Knight R., Uncovering the Unknown: A New Approach in \\
-               & Analyzing Microbiome Data NSF Data Science Workshop, 2015\\
-    $\bullet$  & \underline{Morton, J.}, Freed, S. Lee, S. Friedberg, I. Prediction of Bacteriocin Associated Operons \\
-               & Rocky Mountain Bioinformatics Conference, 2014\\
-    $\bullet$  & \underline{Morton, J.}, Freed, S. Lee, S. Friedberg, I. A pipeline for Identifying Bacteriocin-Associated \\
-               & Gene Clusters. ISMB Boston, 2014\\
-    $\bullet$  & \underline{Morton, J.}, Freed, S. Lee, S. Friedberg, I. Discovering the Next Antibiotic \\
-               & Ohio Space Grant Consortium, Cleveland OH, 2014 \\
-    $\bullet$  & \underline{Morton, J.}, P., Abrudan, J. Karro, C. Liang , Sequence classification of homopolymer emissions \\
-               & (SCOPE), Great Lakes Bioinformatics Conference, Pittsburgh, PA, 2013\\
-    $\bullet$  & \underline{Morton, J.}, P., Abrudan, J. Karro, C. Liang , Sequence classification of homopolymer emissions \\
-               & (SCOPE), Ohio Space Grant Consortium, Cleveland OH, 2013\\
-    $\bullet$  & Morton, J., P., Abrudan, \underline{J. Karro}, C. Liang , Sequence classification of homopolymer emissions \\
-               & (SCOPE), IEEE 2nd International Conference on Computational Advances in Bio and \\
-               & Medical Sciences, ICCABS 2012, Las Vegas, NV, February 2012\\
-    $\bullet$  & \underline{Morton, J.}, J. Karro, C. Liang, A novel approach for identifying poly(A) tails in \\
-               & raw cDNA sequence data using General Hidden Markov Models, Genome Informatics \\
-               & Cold Spring Harbor, NY, November 2011.\\
-  \end{tabular}
 \end{rSection}
 \begin{rSection}{Open Source Contributions}
   \begin{tabular}{ll}
@@ -163,7 +159,7 @@
       $\bullet$ & Sci-kit Bio (Developer)\\
       $\bullet$ & Emperor (Developer)\\
       $\bullet$ & BOA: Bacteriocin Operon Associator (Lead Developer)\\
-      $\bullet$ & SCOPE++: Sequence Classification Of homoPolymer Emissions (Main Developer)\\
+      $\bullet$ & SCOPE++: Sequence Classification Of homoPolymer Emissions (Lead Developer)\\
       $\bullet$ & Rail-RNA (Contributor)\\
       $\bullet$ & Scipy (Contributor)\\
       $\bullet$ & Biopython (Contributor)\\
@@ -180,4 +176,6 @@
     $\bullet$ & IEEE Miami Student Chapter Treasurer, Fall 2011- Spring 2012\\
   \end{tabular}
 \end{rSection}
+
+\nobibliography{ref}
 \end{document}

@@ -4,11 +4,23 @@
 \usepackage{color}
 
 \usepackage{bibentry}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
 \nobibliography{ref.bib}
 \bibliographystyle{my-apalike.bst}
 \name{James (Jamie) T. Morton}
 \address{(513)~$\cdot$~907~$\cdot$~9853 \\ jamietmorton@gmail.com \\ https://github.com/mortonjt}% Your phone number and email and github
 \begin{document}
+
+%\setcounter{page}{1}
+%\pagenumbering{arabic}
+\cfoot{\thepage\ of \pageref{LastPage}}
+
+\begin{rSection}{Research Interests}
+  High dimensional statistics, compositional data analysis, multi-omics data fusion and machine learning techniques with applications to microbial ecology with special interests in functional genomics, microbial metabolism and microbial niche differentiation.
+\end{rSection}
 \begin{rSection}{Education}
   \begin{tabular}{ll}
     \textbf{Graduate}    & University of California, San Diego, CA  \\
@@ -47,10 +59,7 @@
     $\bullet$ & \textbf{Joseph A. Culler} Award, Department of Physics, Miami University, 2010,2011\\
     $\bullet$ & \textbf{NSF Travel Grant}, Coupling, Energetics, \& Dynamics of Atmospheric Regions workshop, 2010\\
     $\bullet$ & \textbf{Wright Scholar}, Air Force Research Laboratory, Wright Patterson Air Force Base, 2009\\
-  \end{tabular}
-\end{rSection}
-\begin{rSection}{Research Interests}
-  High dimensional statistics, compositional data analysis, multi-omics data fusion and machine learning techniques with applications to microbial ecology with special interests in functional genomics, microbial metabolism and microbial niche differentiation. \newpage
+  \end{tabular} \newpage
 \end{rSection}
 \begin{rSection}{Publications}
   \begin{enumerate}
@@ -151,7 +160,7 @@
     $\bullet$  &   Cameron Martino, undergraduate student, Spring 2017 \\
     $\bullet$  &   Liam Toran, masters student, Summer 2016 \\
     $\bullet$  &   Kayla Orlinsky, undergraduate student, Spring 2016 \\
-  \end{tabular}\newpage
+  \end{tabular}
 \end{rSection}
 
 \begin{rSection}{Skills}
@@ -163,7 +172,7 @@
   \begin{tabular}{llllllll}
      $\bullet$ Python   &  $\bullet$ C/C++ &  $\bullet$ Java  & $\bullet$ Javascript &  $\bullet$ \LaTeX   &  $\bullet$ ROS    &  $\bullet$ Hadoop & $\bullet$ Stan\\
      $\bullet$ Matlab   &  $\bullet$ R     &  $\bullet$ Unix   & $\bullet$ SQL      &  $\bullet$ OpenCL   &  $\bullet$ CUDA   &   $\bullet$ git\\
-  \end{tabular}
+  \end{tabular}\newpage
 \end{rSection}
 \begin{rSection}{Open Source Contributions}
   \begin{tabular}{ll}
@@ -184,9 +193,9 @@
 
 \begin{rSection}{Personal Interests}
   \begin{tabular}{ll}
-      $\bullet$ Music: Piano, Cello, Guitar, and Voice (base).\\
-      $\bullet$ Sports: Surfing, Scuba Diving, Ice Hockey, Skiing, Hiking, Biking, Kung Fu \\
-      $\bullet$ Others: Traveling, Cooking\\
+      $\bullet$ & Music: Piano, Cello, Guitar, and Voice (base).\\
+      $\bullet$ & Sports: Surfing, Scuba Diving, Ice Hockey, Skiing, Hiking, Biking, Kung Fu \\
+      $\bullet$ & Others: Traveling, Cooking\\
   \end{tabular}
 \end{rSection}
 

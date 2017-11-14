@@ -7,11 +7,13 @@
 \usepackage{lastpage}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
-
+\usepackage{hyperref}
+\fancyhf{} % sets both header and footer to nothing
+\renewcommand{\headrulewidth}{0pt}
 \nobibliography{ref.bib}
 \bibliographystyle{my-apalike.bst}
 \name{James (Jamie) T. Morton}
-\address{(513)~$\cdot$~907~$\cdot$~9853 \\ jamietmorton@gmail.com \\ https://github.com/mortonjt}% Your phone number and email and github
+\address{(513)~$\cdot$~907~$\cdot$~9853 \\ jamietmorton@gmail.com \\ \href{https://github.com/mortonjt}{\color{blue}{\underline{https://github.com/mortonjt}}}}% Your phone number and email and github
 \begin{document}
 
 %\setcounter{page}{1}
@@ -19,18 +21,19 @@
 \cfoot{\thepage\ of \pageref{LastPage}}
 
 \begin{rSection}{Research Interests}
-  High dimensional statistics, compositional data analysis, multi-omics data fusion and machine learning techniques with applications to microbial ecology with special interests in functional genomics, microbial metabolism and microbial niche differentiation.
+  High dimensional statistics, compositional data analysis, multi-omics data fusion, spatial-temporal analysis and machine learning techniques with applications to microbial ecology and evolution with special interests in functional genomics, microbial metabolism and microbial niche differentiation.
 \end{rSection}
 \begin{rSection}{Education}
   \begin{tabular}{ll}
-    \textbf{Graduate}    & University of California, San Diego, CA  \\
-    2015 - Present  & PhD student in Computer Science \\
+    \textbf{Graduate}      & University of California, San Diego, CA  \\
+    2015 - Present  & PhD candidate in the Department of Computer Science \\
                     & Expected Graduation Date: August 2018\\
-                    & PhD Thesis: "Inference on High Dimensional Microbial Compositions: A Balancing Act"\\
-    \textbf{Graduate}    & University of Colorado, Boulder, CO \\
-    2014 - 2015  & PhD student in Computer Science \\
-                    & Integrative Quantitative Biology Program \\
-    \textbf{Undergraduate}    & Miami University, Oxford, OH \\
+                    & PhD Thesis: \\
+                    & ``Inference on High Dimensional Microbial Compositions: A Balancing Act"\\
+    \textbf{Graduate}      & University of Colorado, Boulder, CO \\
+    2014 - 2015   & PhD student in the Department of Computer Science \\
+                  & Integrative Quantitative Biology Program \\
+    \textbf{Undergraduate} & Miami University, Oxford, OH \\
     2010 - 2014   & B.S. Computer Science (Cum Laude)\\
     & B.S. Electrical Engineering (Cum Laude)\\
     & B.S. Mathematics and Statistics \\
@@ -45,19 +48,19 @@
     $\bullet$ & \textbf{Integrated Quantitative Biology Fellowship}, University of Colorado Boulder, 2014 - 2015\\
     $\bullet$ & \textbf{National Barry Goldwater Scholar}, 2013\\
     $\bullet$ & \textbf{Benjamin Harrison Scholar}, Miami University, 2010-2014\\
-    $\bullet$ & \textbf{First place}, Institute of Navigation (ION) Autonomous Snowplow Competition, 2014\\
+    $\bullet$ & \textbf{First place team member}, Institute of Navigation Autonomous Snowplow Competition, 2014\\
     $\bullet$ & \textbf{NSF REU}, Cold Spring Harbor Laboratories, Summer 2012\\
     $\bullet$ & \textbf{Provost Academic Achievement Award}, Miami University, 2012\\
     $\bullet$ & \textbf{Ohio Space Grant Scholar Award}, NASA, 2012 - 2014\\
     $\bullet$ & \textbf{Dean's List}, Miami University, 2010-13\\
     $\bullet$ & \textbf{R.L. Edwards Scholarship}, Department of Physics, Miami University, 2011, 2013\\
-    $\bullet$ & \textbf{Mary Jeannette and Clifford Harvey Scholarship}, Department of Mathetmatics, Miami U., 2013\\
-    $\bullet$ & \textbf{Mary Jean and Joseph R. Priest Scholarship}, Department of Physics, Miami University, 2012\\
+    $\bullet$ & \textbf{Mary Jeannette \& Clifford Harvey Scholarship}, Mathematics Department, Miami U., 2013\\
+    $\bullet$ & \textbf{Mary Jean \& Joseph R. Priest Scholarship}, Physics Department, Miami U., 2012\\
     $\bullet$ & \textbf{President List}, Miami University, 2010-11\\
     $\bullet$ & \textbf{Nestle Scholar}, Computer Sci. and Software Eng. Dept, Miami University, 2011\\
     $\bullet$ & \textbf{Faculty Prize}, Department of Mathematics, Miami University, 2011\\
     $\bullet$ & \textbf{Joseph A. Culler} Award, Department of Physics, Miami University, 2010,2011\\
-    $\bullet$ & \textbf{NSF Travel Grant}, Coupling, Energetics, \& Dynamics of Atmospheric Regions workshop, 2010\\
+    $\bullet$ & \textbf{NSF Travel Grant}, Coupling, Energetics, \& Dynamics of Atmospheric Regions Workshop, 2010\\
     $\bullet$ & \textbf{Wright Scholar}, Air Force Research Laboratory, Wright Patterson Air Force Base, 2009\\
   \end{tabular}
 \end{rSection}
@@ -93,6 +96,8 @@
     \item \bibentry {AGP}
     \item \bibentry {cysticfibrosis}
     \item \bibentry {radioactive}
+    \item \bibentry {office}
+    \item \bibentry {matrixcompletion}
   \end{enumerate}
 \end{rSection}
 
@@ -100,28 +105,29 @@
   \begin{enumerate}
     \item \bibentry {cheesebiogeography}
     \item \bibentry {balanceselection}
-    \item \bibentry {office}
-    \item \bibentry {matrixcompletion}
+    \item \bibentry {multinomialregression}
   \end{enumerate}
 \end{rSection}
-\begin{rSection}{Conference Presentations}
+\begin{rSection}{Selected Conference Presentations}
   \begin{itemize}
     \item \bibentry {sexkidneys}
     \item \bibentry {codawork2017}
     \item \bibentry {rocky2014}
+    \item \bibentry {redblade2013}
   \end{itemize}
 \end{rSection}
-\begin{rSection}{Poster Presentations}
+\begin{rSection}{Selected Poster Presentations}
   \begin{itemize}
     \setlength\itemsep{0em}
-    \item \bibentry {plsbalances}
     \item \bibentry {ita2017}
     \item \bibentry {randomprocesses}
     \item \bibentry {pedsymp}
     \item \bibentry {nsf2014}
     \item \bibentry {ohio2014}
     \item \bibentry {cmu2013}
+    \item \bibentry {iccabs2012}
     \item \bibentry {cshl2011}
+    \item \bibentry {radar2010}
   \end{itemize}
 \end{rSection}
 
@@ -131,38 +137,41 @@
     $\bullet$ & Association for Computing Machinery Student member, 2011-Present \\
     $\bullet$ & Sigma Pi Sigma,Tau Beta Pi,Eta Kappa Nu, 2014 \\
     $\bullet$ & National Society of Collegiate Scholars, 2012 - 2013\\
-    $\bullet$ & Institute of Electrical and Electronics Engineers Student member, 2011-2016 \\
+    $\bullet$ & Institute of Electrical and Electronics Engineers (IEEE) Student member, 2011-2016 \\
     $\bullet$ & IEEE Miami Student Chapter Treasurer, 2011 - 2012\\
   \end{tabular}
 \end{rSection}
 
 \begin{rSection}{Professional Services}
   \begin{tabular}{ll}
-    $\bullet$ & Poster Reviewer for ISMB 2015  2014-2016
-  \end{tabular}
-\end{rSection}
-
-\begin{rSection}{Workshops}
-  \begin{tabular}{ll}
-    $\bullet$ & Teaching Assistant. Qiime2 workshop. Las Vegas, NV June 21-23, 2017 \\
-    $\bullet$ & Teaching Assistant. STAMPS, Woodshole, MA, August 2-13, 2016 \\
+    $\bullet$ & Poster Reviewer for ISMB 2015
   \end{tabular}
 \end{rSection}
 
 \begin{rSection}{Teaching}
   \begin{tabular}{ll}
-    $\bullet$ & Instructor. Qiime2 workshop. UBC Vancouver August 23-25, 2017 \\
-    $\bullet$ & Instructor. Qiime2 workshop. UBC Kelowna August 21-22, 2017 \\
-  \end{tabular}\\[1 mm]
-  Student Mentoring\\
+    $\bullet$ & Instructor. Qiime2 workshop. Colorado State University, November 20-21, 2017 \\
+    $\bullet$ & Instructor. Qiime2 workshop. UBC Vancouver, August 23-25, 2017 \\
+    $\bullet$ & Instructor. Qiime2 workshop. UBC Kelowna, August 21-22, 2017 \\
+    $\bullet$ & Teaching Assistant. Qiime2 workshop. Las Vegas, NV, June 21-23, 2017 \\
+    $\bullet$ & Teaching Assistant. STAMPS, Woodshole, MA, August 2-13, 2016 \\
+  \end{tabular}
+\end{rSection}
+
+\begin{rSection}{Mentoring}
   \begin{tabular}{ll}
+    $\bullet$  &   Andrew Nyugen, undergraduate student, Fall 2017 \\
+    $\bullet$  &   Thant Htoo Zaw, undergraduate student, Fall 2017 \\
+    $\bullet$  &   Kalen Cantrell, undergraduate student, Fall 2017 \\
+    $\bullet$  &   Yimeng Yang, undergraduate student, Fall 2017 \\
     $\bullet$  &   Jue Wang, undergraduate student, Summer 2017 \\
     $\bullet$  &   Cameron Martino, undergraduate student, Spring 2017 \\
+    $\bullet$  &   Josh Lefler, undergraduate student,Fall 2016 \\
     $\bullet$  &   Liam Toran, masters student, Summer 2016 \\
     $\bullet$  &   Kayla Orlinsky, undergraduate student, Spring 2016 \\
   \end{tabular}
 \end{rSection}
-
+\newpage
 \begin{rSection}{Skills}
   \textbf{Foreign Language Skills}\\
   \begin{tabular}{l}
@@ -170,24 +179,24 @@
   \end{tabular}\\
   \textbf{Highly skilled in the following languages and computational platforms}\\
   \begin{tabular}{llllllll}
-     $\bullet$ Python   &  $\bullet$ C/C++ &  $\bullet$ Java  & $\bullet$ Javascript &  $\bullet$ \LaTeX   &  $\bullet$ ROS    &  $\bullet$ Hadoop & $\bullet$ Stan\\
-     $\bullet$ Matlab   &  $\bullet$ R     &  $\bullet$ Unix   & $\bullet$ SQL      &  $\bullet$ OpenCL   &  $\bullet$ CUDA   &   $\bullet$ git\\
-  \end{tabular}\newpage
+     $\bullet$ Python   &  $\bullet$ C/C++ &  $\bullet$ Java  & $\bullet$ Javascript & $\bullet$ Stan & $\bullet$ Matlab   &  $\bullet$ R     &  $\bullet$ Unix \\
+     $\bullet$ SQL & $\bullet$ ROS &  $\bullet$ Hadoop &  $\bullet$ \LaTeX &  $\bullet$ OpenCL   &  $\bullet$ CUDA   &   $\bullet$ git & $\bullet$ Arduino\\
+  \end{tabular}
 \end{rSection}
 \begin{rSection}{Open Source Contributions}
   \begin{tabular}{ll}
-      $\bullet$ & Gneiss (Core Maintainer)\\
-      $\bullet$ & Sci-kit Bio (Developer)\\
-      $\bullet$ & Emperor (Developer)\\
-      $\bullet$ & Qiime2 (Contributor)\\
-      $\bullet$ & Deblur (Contributor)\\
-      $\bullet$ & Micronota (Developer)\\
-      $\bullet$ & BOA: Bacteriocin Operon Associator (Lead Developer)\\
-      $\bullet$ & SCOPE++: Sequence Classification Of homoPolymer Emissions (Lead Developer)\\
-      $\bullet$ & Rail-RNA (Contributor)\\
-      $\bullet$ & Statsmodels (Contributor)\\
-      $\bullet$ & Scipy (Contributor)\\
-      $\bullet$ & Biopython (Contributor)\\
+      $\bullet$ & \href{https://biocore.github.io/gneiss/}{\color{blue}{\underline{Gneiss}}} (Lead Developer)\\
+      $\bullet$ & \href{https://github.com/mortonjt/Boa}{\color{blue}{\underline{BOA}}} (Lead Developer)\\
+      $\bullet$ & \href{https://github.com/mortonjt/SCOPE}{\color{blue}{\underline{SCOPE}}}(Lead Developer)\\
+      $\bullet$ & \href{http://scikit-bio.org/}{\color{blue}{\underline{scikit-bio}}} (Developer)\\
+      $\bullet$ & \href{http://biocore.github.io/emperor/}{\color{blue}{\underline{Emperor}}} (Developer)\\
+      $\bullet$ & \href{https://github.com/biocore/micronota}{\color{blue}{\underline{Micronota}}} (Developer)\\
+      $\bullet$ & \href{https://qiime2.org/}{\color{blue}{\underline{Qiime2}}} (Developer)\\
+      $\bullet$ & \href{https://github.com/biocore/deblur}{\color{blue}{\underline{Deblur}}} (Developer)\\
+      $\bullet$ & \href{http://rail.bio/}{\color{blue}{\underline{Rail-RNA}}} (Contributor)\\
+      $\bullet$ & \href{http://www.statsmodels.org/devel/}{\color{blue}{\underline{Statsmodels}}} (Contributor)\\
+      $\bullet$ & \href{https://github.com/scipy/scipy}{\color{blue}{\underline{Scipy}}} (Contributor)\\
+      $\bullet$ & \href{http://biopython.org/}{\color{blue}{\underline{Biopython}}} (Contributor)\\
   \end{tabular}
 \end{rSection}
 
